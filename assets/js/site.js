@@ -10,47 +10,47 @@ let smallImageFour = document.getElementById('imgFour')
 
 
 
-smallImageOne.addEventListener('click', function (event) {
+smallImageOne.addEventListener('click', function (event) { // event er en parameter
 
-    let bigImageUrl = mainImage.src
-    let smallImageUrl = smallImageOne.src
-
-
-    mainImage.src = smallImageUrl
-    smallImageOne.src = bigImageUrl
-
-})
+    let bigImageUrl = mainImage.src // fidne url til store billede
+    let smallImageUrl = smallImageOne.src // find url til lille billede
 
 
-smallImageTwo.addEventListener('click', function (event) {
-
-    let bigImageUrl = mainImage.src
-    let smallImageUrl = smallImageTwo.src
-
-
-    mainImage.src = smallImageUrl
-    smallImageTwo.src = bigImageUrl
+    mainImage.src = smallImageUrl // skift store billede til lille billede
+    smallImageOne.src = bigImageUrl  // skift lille billede til store billede
 
 })
 
-smallImageThree.addEventListener('click', function (event) {
 
-    let bigImageUrl = mainImage.src
-    let smallImageUrl = smallImageThree.src
+smallImageTwo.addEventListener('click', function (event) { // event er en parameter
+
+    let bigImageUrl = mainImage.src  // find url til store billede
+    let smallImageUrl = smallImageTwo.src  // find url til lille billede
 
 
-    mainImage.src = smallImageUrl
-    smallImageThree.src = bigImageUrl
+    mainImage.src = smallImageUrl  // skift store billede til lille billede
+    smallImageTwo.src = bigImageUrl  // skift lille billede til store billede
 
 })
 
-smallImageFour.addEventListener('click', function (event) {
+smallImageThree.addEventListener('click', function (event) { // event er en parameter
 
-    let bigImageUrl = mainImage.src
-    let smallImageUrl = smallImageFour.src
+    let bigImageUrl = mainImage.src  // find url til store billede
+    let smallImageUrl = smallImageThree.src  // find url til lille billede
 
 
-    mainImage.src = smallImageUrl
-    smallImageFour.src = bigImageUrl
+    mainImage.src = smallImageUrl  // skift store billede til lille billede
+    smallImageThree.src = bigImageUrl  // skift lille billede til store billede
+
+})
+
+smallImageFour.addEventListener('click', function (event) {  // event er en parameter
+
+    let bigImageUrl = mainImage.src  // find url til store billede
+    let smallImageUrl = smallImageFour.src  // find url til lille billede
+
+
+    mainImage.src = smallImageUrl  // skift store billede til lille billede
+    smallImageFour.src = bigImageUrl  // skift lille billede til store billede
 
 })
