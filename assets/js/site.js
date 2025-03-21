@@ -1,7 +1,7 @@
 // write cool JS hwere!!
-let mainImage = document.getElementById('mainImage')
+let mainImage = document.getElementById('mainImage') // henter store billede
 
-let smallImageOne = document.getElementById('imgOne')
+let smallImageOne = document.getElementById('imgOne') // henter lille billede
 let smallImageTwo = document.getElementById('imgTwo')
 let smallImageThree = document.getElementById('imgThree')
 let smallImageFour = document.getElementById('imgFour')
